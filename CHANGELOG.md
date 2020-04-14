@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.0.0](https://www.github.com/terraform-google-modules/terraform-google-org-policy/compare/v3.0.2...v4.0.0) (2020-04-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* The exclusions have had their state location changed and will be recreated (this is a no-op).
+
+### Features
+
+* Make exclude_folders and exclude_projects use sets and use for_each to avoid unnecessary resource updates ([#32](https://www.github.com/terraform-google-modules/terraform-google-org-policy/issues/32)) ([5d552af](https://www.github.com/terraform-google-modules/terraform-google-org-policy/commit/5d552afaf5523dd1434066a047824e09b96cf42f))
+
+
+### Bug Fixes
+
+* use correct module names in documentation ([#30](https://www.github.com/terraform-google-modules/terraform-google-org-policy/issues/30)) ([235338d](https://www.github.com/terraform-google-modules/terraform-google-org-policy/commit/235338d6e9e1fcfad703be1c67ca8de2df1928a4))
+
 ### [3.0.2](https://www.github.com/terraform-google-modules/terraform-google-org-policy/compare/v3.0.1...v3.0.2) (2020-02-05)
 
 
